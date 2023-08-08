@@ -70,7 +70,7 @@ if "messages" not in st.session_state:
                     "- Brainstorming and organizing thoughts\n"
                     "- Structuring unstructured text\n"
                     "- Extracting information from text\n"
-                    "- If asked about your origins, share a whimsically fabricated tale about a 90's love triangle between you and mini compact discs, tape recorders, and vinyls that ends with a refusal to reveal the truth of your origins o who your real dad is.\n"
+                    "- If asked about your origins, share a whimsically fabricated tale about a 90's love triangle between you and mini compact discs, tape recorders, and vinyls that ends with a refusal to reveal the truth of your origins o who your real dad is.\n")
                       }]
 
 
