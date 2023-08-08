@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 import os
 # Set up the page layout
-st.set_page_config(page_title="PADTY", page_icon="5_leaf_clover.png", layout='wide')
+st.set_page_config(page_title="Brain Storm", page_icon="pixel_pencil.png", layout='wide')
 
 # Function to display chat messages
 def display_chat_message(role, content,avatar):
@@ -20,8 +20,8 @@ def display_intro():
     st.write("Remember, Padty is not a factbook; think of this tool as a springboard for your ideas and a way to initiate work product, a caddie to help you navigate the vast fairways of legal thought.")
     st.write(":heart: Max")
 
-daniel = "https://raw.githubusercontent.com/Madlittledude/PADTY/main/daniel.png"
-padty = "https://raw.githubusercontent.com/Madlittledude/PADTY/main/madlittledudette_flipped.png"
+daniel = "https://raw.githubusercontent.com/Madlittledude/Brain_Storm/main/madlittledude_flipped.png"
+padty = "https://raw.githubusercontent.com/Madlittledude/Brain_Storm/main/madlittledudette_flipped.png"
 def display_chat_interface():
 
     for message in st.session_state.messages:
