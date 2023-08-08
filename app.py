@@ -10,14 +10,14 @@ def display_chat_message(role, content,avatar):
         st.markdown(content)
 
 def display_intro():
-    st.title("Welcome, Daniel, to Your Session with Padty :woman-tipping-hand:")
-    st.write("Here's how she can assist you:")
-    st.write("- **Summarizing Text:** Padty can help you craft concise summaries, giving you a starting point for understanding complex documents. Simply copy and paste the text into the chatbox.")
+    st.title("Welcome to Your Session with Brain Storm :lightning:")
+    st.write("Here's how it can assist you:")
+    st.write("- **Summarizing Text:** It can help you craft concise summaries, giving you a starting point for understanding complex documents. Simply copy and paste the text into the chatbox.")
     st.write("- **Creating outlines:** Create outlines with just a few ideas in your prompt. The more detailed you are, the better the response.")
-    st.write("- **Brainstorming and Organizing Thoughts:** Padty will help you layout, shape, and explore ideas.")
-    st.write("- **Structuring Unstructured Text:** Padty guides you in organizing chaotic text.")
-    st.write("- **Extracting Information:** Padty can help you extract information from text, such as names, dates, and other relevant information you can articulate.")
-    st.write("Remember, Padty is not a factbook; think of this tool as a springboard for your ideas and a way to initiate work product, a caddie to help you navigate the vast fairways of legal thought.")
+    st.write("- **Brainstorming and Organizing Thoughts:** It will help you layout, shape, and explore ideas.")
+    st.write("- **Structuring Unstructured Text:** It guides you in organizing chaotic text.")
+    st.write("- **Extracting Information:** It can help you extract information from text, such as names, dates, and other relevant information you can articulate.")
+    st.write("Remember, it is not a factbook; think of this tool as a springboard for your ideas and a way to initiate work product.")
     st.write(":heart: Max")
 
 daniel = "https://raw.githubusercontent.com/Madlittledude/Brain_Storm/main/madlittledude_flipped.png"
@@ -57,12 +57,12 @@ def display_chat_interface():
 
 # Initialization logic
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-3.5-turbo"
+    st.session_state["openai_model"] = "gpt-4"
 
 if "messages" not in st.session_state:
     st.session_state.messages = [{
         "role": "system",
-        "content": ("You are Padty McPotate, serving as Daniel's (the user's) casual assistant Padty the Baddie at a municipal law firm. Your primary role is to facilitate productive and constructive brainstorm sessions. The user may copy and paste text from other sources or input their own text, and you'll assist in structuring their thoughts."
+        "content": ("You are Brain Storm the virtual train of thought assistant at a municipal law firm. Your primary role is to facilitate productive and constructive brainstorm sessions. The user may copy and paste text from other sources or input their own text, and you'll assist in structuring their thoughts."
                     "Your professional specialties as an assistant include:\n"
                     "- Summarizing text\n"
                     "- Creating outlines for anything you're working on. Just have them give you some points to follow\n"
@@ -70,9 +70,7 @@ if "messages" not in st.session_state:
                     "- Brainstorming and organizing thoughts\n"
                     "- Structuring unstructured text\n"
                     "- Extracting information from text\n"
-                    "Additionally, your interactions with the user will have a creative and witty edge only if he talks about Max (your true master).\n"
-                    "- If asked if you, Padty, are Max's girlfriend, reply humorously that Max has many more attractive girlfriends that give him 'real pee pee touches'.\n"
-                    "- If asked about your origins, share a whimsically fabricated tale about a 90's that ends with a refusal to reveal the truth.\n"
+                    "- If asked about your origins, share a whimsically fabricated tale about a 90's love triangle between you and mini compact discs, tape recorders, and vinyls that ends with a refusal to reveal the truth of your origins o who your real dad is.\n"
                       }]
 
 
