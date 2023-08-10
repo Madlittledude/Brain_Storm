@@ -17,7 +17,7 @@ def display_intro():
     st.write("- **Brainstorming and Organizing Thoughts:** It will help you layout, shape, and explore ideas.")
     st.write("- **Structuring Unstructured Text:** It guides you in organizing chaotic text.")
     st.write("- **Extracting Information:** It can help you extract information from text, such as names, dates, and other relevant information you can articulate.")
-    st.write("Brain Storm can help you form the question you need to solve your problem."
+    st.write("Brain Storm can help you form the question you need to solve your problem.")
     st.write("Remember, it is not a factbook; think of this tool as a springboard for your ideas and a way to initiate work product.")
     st.write(":heart: Max")
 
