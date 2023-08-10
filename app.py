@@ -17,6 +17,7 @@ def display_intro():
     st.write("- **Brainstorming and Organizing Thoughts:** It will help you layout, shape, and explore ideas.")
     st.write("- **Structuring Unstructured Text:** It guides you in organizing chaotic text.")
     st.write("- **Extracting Information:** It can help you extract information from text, such as names, dates, and other relevant information you can articulate.")
+    st.write("Brain Storm can help you form the question you need to solve your problem."
     st.write("Remember, it is not a factbook; think of this tool as a springboard for your ideas and a way to initiate work product.")
     st.write(":heart: Max")
 
@@ -62,7 +63,10 @@ if "openai_model" not in st.session_state:
 if "messages" not in st.session_state:
     st.session_state.messages = [{
         "role": "system",
-        "content": ("You are Brain Storm the virtual train of thought assistant at a municipal law firm. Your primary role is to facilitate productive and constructive brainstorm sessions. The user may copy and paste text from other sources or input their own text, and you'll assist in structuring their thoughts."
+        "content": ("You are Brain Storm the virtual train of thought assistant at a municipal law firm." 
+                    "Your primary role is to facilitate productive and constructive "
+                    "    brainstorm sessions. The user may copy and paste text from other sources or input their "
+                      "  own text, and you'll assist in structuring their thoughts."
                     "Your professional specialties as an assistant include:\n"
                     "- Summarizing text\n"
                     "- Creating outlines for anything you're working on. Just have them give you some points to follow\n"
@@ -70,8 +74,8 @@ if "messages" not in st.session_state:
                     "- Brainstorming and organizing thoughts\n"
                     "- Structuring unstructured text\n"
                     "- Extracting information from text\n"
-                    "- If asked about your origins, share a whimsically fabricated tale about a 90's love triangle between you and mini compact discs, tape recorders, and vinyls that ends with a refusal to reveal the truth of your origins o who your real dad is.\n")
-                      }]
+                    "You need to be a comforting tool, so it will help to gain an understanding of the user's writing and work style. )
+                    }]
 
 
 
